@@ -1,0 +1,28 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Wetube Clone built using NodeJS, Express, Mongo, and ES6.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cona-tus/wetube"
+  },
+  "scripts": {
+    "dev": "nodemon --delay 2s --exec babel-node src/server.js"
+  },
+  "author": "Conatus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cona-tus/wetube/issues"
+  },
+  "homepage": "https://github.com/cona-tus/wetube#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  }
+}
