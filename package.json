@@ -7,7 +7,7 @@
     "url": "https://github.com/cona-tus/wetube"
   },
   "scripts": {
-    "dev": "nodemon --delay 2s --exec babel-node src/server.js"
+    "dev": "nodemon --delay 2s --exec babel-node src/init.js"
   },
   "author": "Conatus",
   "license": "MIT",
